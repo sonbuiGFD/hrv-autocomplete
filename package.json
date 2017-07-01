@@ -1,0 +1,31 @@
+{
+  "name": "panda-autocomplete",
+  "version": "1.0.1",
+  "description": "A JavaScript library to search autocomplete on haravan flashform",
+  "main": "dist/panda.autocomplete.min.js",
+  "scripts": {
+    "lint": "standard \"src/**/*.js\"",
+    "build:css": "cssnano src/panda.autocomplete.css dist/panda.autocomplete.min.css",
+    "build:js": "uglifyjs src/panda.autocomplete.js -cm -o dist/panda.autocomplete.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonbuiGFD/panda-autocomplete.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "haravan",
+    "search"
+  ],
+  "author": "son_bui_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonbuiGFD/panda-autocomplete/issues"
+  },
+  "homepage": "https://github.com/sonbuiGFD/panda-autocomplete/blob/master/README.md",
+  "devDependencies": {
+    "cssnano-cli": "^1.0.5",
+    "standard": "^10.0.2",
+    "uglify-js": "^3.0.22"
+  }
+}
