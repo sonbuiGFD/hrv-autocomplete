@@ -1,16 +1,17 @@
 {
-  "name": "panda-autocomplete",
+  "name": "hrv-autocomplete",
   "version": "1.0.1",
   "description": "A JavaScript library to search autocomplete on haravan flashform",
-  "main": "dist/panda.autocomplete.min.js",
+  "main": "dist/hrv.autocomplete.min.js",
   "scripts": {
-    "lint": "standard \"src/**/*.js\"",
-    "build:css": "cssnano src/panda.autocomplete.css dist/panda.autocomplete.min.css",
-    "build:js": "uglifyjs src/panda.autocomplete.js -cm -o dist/panda.autocomplete.min.js"
+    "lint": "standard --fix \"src/**/*.js\"",
+    "build:css": "cssnano src/hrv.autocomplete.css dist/hrv.autocomplete.min.css",
+    "build:js": "uglifyjs src/hrv.autocomplete.js -cm -o dist/hrv.autocomplete.min.js",
+    "build": "yarn build:js && yarn build:css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonbuiGFD/panda-autocomplete.git"
+    "url": "git+https://github.com/sonbuiGFD/hrv-autocomplete.git"
   },
   "keywords": [
     "autocomplete",
@@ -20,9 +21,9 @@
   "author": "son_bui_",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonbuiGFD/panda-autocomplete/issues"
+    "url": "https://github.com/sonbuiGFD/hrv-autocomplete/issues"
   },
-  "homepage": "https://github.com/sonbuiGFD/panda-autocomplete/blob/master/README.md",
+  "homepage": "https://github.com/sonbuiGFD/hrv-autocomplete/blob/master/README.md",
   "devDependencies": {
     "cssnano-cli": "^1.0.5",
     "standard": "^10.0.2",
