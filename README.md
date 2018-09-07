@@ -28,7 +28,7 @@ Plugin search auto complete for haravan
 **Create form search**
 
 ```sh
-<form data-awesome-search class="" action="/search">
+<form data-auto-complete class="" action="/search">
 	<input type="hidden" name="type" value="product">
 	<input type="text" name="q" required class="" value="" placeholder="Tìm kiếm">
 	<button><i class="fa fa-search"></i></button>
